@@ -5,6 +5,12 @@
       "loopback/server/models",
       "../common/models",
       "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
     ]
   },
   "User": {
@@ -25,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Tenant": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Shop": {
+    "dataSource": "db",
+    "public": true
   }
 }

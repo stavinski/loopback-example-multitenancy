@@ -8,7 +8,9 @@
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "debug": "^2.2.0",
     "errorhandler": "^1.1.1",
+    "lodash": "^3.10.0",
     "loopback": "^2.14.0",
     "loopback-boot": "^2.6.5",
     "loopback-datasource-juggler": "^2.19.0",
@@ -21,8 +23,8 @@
     "jshint": "^2.5.6"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/stavinski/loopback-example-multitenancy.git"
   },
   "description": "loopback-example-multitenancy"
 }

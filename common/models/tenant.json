@@ -1,0 +1,14 @@
+{
+  "name": "Tenant",
+  "base": "Application",
+  "idInjection": true,
+  "strict": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

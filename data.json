@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Tenant": 3,
+    "Shop": 4
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Tenant": {
+      "4fc8eb9ff252e24d9045dee5952706ea": "{\"id\":\"4fc8eb9ff252e24d9045dee5952706ea\",\"realm\":\"bits\",\"name\":\"Bits and Bobs\",\"clientKey\":\"0d32d4abd084d6ac2f88836139b6b49371b0caa0\",\"javaScriptKey\":\"9f51346fd1609d01373ffadcdc38f10132a42ea3\",\"restApiKey\":\"6f1752d62137ef0a2a782bf52197cf82dd4344a0\",\"windowsKey\":\"fabff5f4fc93eb397b70b221376b5471fae94a8d\",\"masterKey\":\"6772014235e02df7475cba724193361b95e93317\",\"authenticationEnabled\":true,\"anonymousAllowed\":true,\"status\":\"sandbox\",\"created\":\"2015-07-06T19:06:53.344Z\",\"modified\":\"2015-07-06T19:06:53.344Z\"}",
+      "6c3794e0e7da771a61f418fca99b177b": "{\"id\":\"6c3794e0e7da771a61f418fca99b177b\",\"realm\":\"doug\",\"name\":\"Douglas Stores\",\"clientKey\":\"202e6114dffa80734d5402fcc1fb16ecaf57f6bc\",\"javaScriptKey\":\"ffe12e12db5851b9c99325669038d8550c06b22a\",\"restApiKey\":\"45fdf15d91e977e2f1db3382e9973d1b513e84b3\",\"windowsKey\":\"8d305e2630d07975a2a92f1455af23d08b7d722a\",\"masterKey\":\"74826e3526e9cbcb7c28f84e7a29f91b45dad8d6\",\"authenticationEnabled\":true,\"anonymousAllowed\":true,\"status\":\"sandbox\",\"created\":\"2015-07-06T19:06:53.360Z\",\"modified\":\"2015-07-06T19:06:53.360Z\"}"
+    },
+    "Shop": {
+      "1": "{\"name\":\"Douglas Bits and Bobs\",\"location\":{\"lat\":54.1630687,\"lng\":-4.4799375},\"tenantId\":\"4fc8eb9ff252e24d9045dee5952706ea\",\"id\":1}",
+      "2": "{\"name\":\"Peels Bits and Bobs\",\"location\":{\"lat\":54.2121862,\"lng\":-4.6914243},\"tenantId\":\"4fc8eb9ff252e24d9045dee5952706ea\",\"id\":2}",
+      "3": "{\"name\":\"Douglas Store\",\"location\":{\"lat\":54.1571559,\"lng\":-4.4843247},\"tenantId\":\"6c3794e0e7da771a61f418fca99b177b\",\"id\":3}"
+    }
+  }
+}
